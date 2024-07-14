@@ -1,0 +1,941 @@
+/**-----FONTS-----**/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/**-----RESET-----**/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**?----HEADER-----**/
+
+.header {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    height: 160px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header nav section ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.header nav section ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+    padding: 10px;
+}
+
+.header nav section a img {
+    width: 110px;
+    height: 110px;
+    display: flex;
+}
+
+.header nav section a {
+    display: flex;
+    justify-content: center;
+}
+
+.header nav section ul li a:hover {
+    text-decoration: underline;
+}
+
+/**-----BODY-----**/
+
+.body {
+    font-family: "Montserrat", sans-serif;
+}
+
+/**-----MAIN-----**/
+
+.fixed {
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+}
+
+.fixed img {
+    width: 70px;
+    height: 70px;
+}
+
+/*?-----INICIO-----*/
+
+.hero {
+    background-color: white;
+    height: 850px;
+    width: 100%;
+}
+
+.carousel {
+    height: 800px;
+    width: 100%;
+}
+
+.carousel-caption {
+    height: 200px;
+}
+
+.carousel-caption h3 {
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+
+.carousel-caption h4 {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+.carousel-caption h5 {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+.TextoBlanco {
+    color: white !important;
+    font-size: 20px !important;
+}
+
+.carousel-caption p {
+    font-size: 25px;
+    margin: 2px;
+    color: black;
+    font-weight: bold;
+}
+
+.carousel-item img {
+    height: 850px;
+}
+
+/**!-----NUESTROS CLIENTES-----**/
+
+.sectionClientes {
+    background-color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    display: grid;
+    grid-template-rows: 310px;
+    grid-template-columns: auto auto;
+    margin: 5px;
+    gap: 20px;
+    text-align: center;
+}
+
+.sectionClientes div {
+    margin: 10px;
+}
+
+.sectionClientes h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.sectionClientes div h2 {
+    font-size: 23px;
+    text-align: center;
+}
+
+.sectionClientes div p {
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.sectionClientes h3 {
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.sectionClientes div img {
+    height: 100px;
+    width: 150px;
+}
+
+.sectionTexto {
+    text-align: center;
+    background-color: gainsboro;
+    margin-bottom: 20px;
+    height: 70px;
+}
+
+.sectionTexto h1 {
+    display: inline-block;
+    padding: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.sectionTexto2 {
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: gainsboro;
+}
+
+.sectionTexto2 h3 {
+    padding: 5px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+/**-----SOCIAL MEDIA PLANS-----**/
+
+.sectionPlansTitulo {
+    text-align: center;
+    padding: 15px;
+    background-color: gainsboro;
+}
+
+.sectionPlansTitulo h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sectionPlans {
+    background-color: gainsboro;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    height: 720px;
+    text-align: center;
+    justify-content: space-around;
+    background-image: url(../images/Carousel1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sectionPlans div ul {
+    padding: 0px;
+}
+
+.sectionPlans div ul li {
+    list-style: none;
+    text-align: center;
+    margin: 15px;
+    color: black;
+}
+
+.sectionPlans div {
+    border: 3px black solid;
+    width: 300px;
+    height: 690px;
+    background-color: gainsboro;
+    margin-top: 20px;
+}
+
+.sectionPlans div h2 {
+    font-size: 23px;
+    padding: 15px;
+}
+
+.sectionPlans div img {
+    width: 200x;
+    height: 200px;
+    border: 2px black solid;
+    padding: 4px;
+}
+
+.sectionPlans div a {
+    background-color: black;
+    color: white;
+    border: 3px black solid;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.sectionPlans a:hover {
+    background-color: gainsboro;
+}
+
+/**-----SERVICIOS-----**/
+
+.accordion-button:active {
+    background-color: rgba(0, 0, 0, 0.187);
+}
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 470px;
+}
+
+.accordion button {
+    color: black;
+    border: 2px black solid;
+    width: 950px;
+    margin: 5px;
+}
+
+.sectionServicios {
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.sectionServicios div h1 {
+    text-align: center;
+    background-color: gainsboro;
+    font-size: 25px;
+    font-weight: bold;
+    height: 50px;
+    padding: 10px;
+}
+
+.sectionListaServicios ul li {
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    border: 3px black solid;
+    list-style: none;
+    padding: 5px;
+}
+
+.sectionServicios p {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sectionServiciosBoton {
+    display: flex;
+    justify-content: center;
+}
+
+.sectionListaServicios {
+    display: flex;
+    justify-content: center;
+}
+
+.sectionServicios div a {
+    text-align: center;
+    background-color: gainsboro;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+    border: 3px black solid;
+    border-radius: 5px;
+}
+
+.sectionServicios div a:hover {
+    background-color: black;
+    color: white;
+}
+
+.sectionServicios div a:active {
+    background-color: gainsboro;
+    color: black;
+}
+
+.sectionServicios div p {
+    background-color: gainsboro;
+    height: 70px;
+    padding: 15px;
+    font-size: 25px;
+}
+
+/**?-----CONTACTO-----**/
+
+.sectionContacto {
+    background-color: white;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sectionContactoTitulo {
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: gainsboro;
+}
+.sectionContacto h1{
+    font-weight: bold;
+    font-size: 23px;
+}
+.sectionContacto h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.btn {
+    background-color: gainsboro;
+    color: black;
+    border: 2px black solid;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+    border: 2px black solid;
+}
+
+.mb-3 {
+    padding: 5px;
+    margin: 2px;
+    width: 50%;
+}
+
+/**!-----FOOTER-----**/
+
+.footer {
+    background-color: gainsboro;
+    height: 135px;
+    background-repeat: no-repeat;
+    background-size: 160px;
+    background-position: left;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    border-top: 1px black solid;
+    padding-left: 0px;
+}
+
+.footer div a img {
+    height: 20px;
+    width: 20px;
+    margin: 2px;
+}
+
+.footer div h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.footer div img {
+    height: 14px;
+    width: 14px;
+}
+
+.footer div ul {
+    padding: 0px;
+}
+
+.footer div ul li {
+    list-style: none;
+    margin: 5px;
+}
+
+.footer div ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.footer div ul li span {
+    font-size: 16px;
+    color: black;
+}
+
+.footer div ul li a:hover {
+    text-decoration: underline;
+}
+
+/**-----MEDIA QUERIES-----**/
+
+@media screen and (max-width: 1024px) {
+    .carousel-caption h3 {
+        font-size: 30px;
+    }
+
+    .carousel-caption p {
+        font-size: 25px;
+    }
+
+    .sectionTexto h1 {
+        font-size: 25px;
+    }
+
+    .SectionTexto2 h3 {
+        font-size: 25px;
+    }
+
+    .sectionPlans {
+        display: grid;
+        grid-template-columns: 50px 50px 50px;
+        grid-template-rows: 100px;
+        gap: 15px;
+        display: flex;
+        padding: 10px;
+        margin: 0px;
+        height: 740px;
+        background-size: cover;
+    }
+
+    .sectionPlans div h2 {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .sectionPlans div p {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .sectionPlans div img {
+        width: 150px;
+        height: 150pX;
+    }
+
+    .sectionPlans div {
+        height: 685px;
+    }
+
+    .sectionServicios div h1 {
+        font-size: 20px;
+    }
+
+    .sectionServicios div p {
+        font-size: 20px;
+    }
+
+    .accordion-item h2 button {
+        font-size: 13px;
+    }
+
+    .accordion-body {
+        font-size: 12px;
+    }
+
+    .accordion button {
+        width: 750px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .fixed img {
+        width: 60px;
+        height: 60px;
+    }
+    .header nav section ul li a {
+        font-size: 15px;
+    }
+
+    .hero {
+        height: 400px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 25px;
+    }
+
+    .carousel-caption p {
+        font-size: 20px;
+    }
+
+    .carousel-caption h4 {
+        font-size: 25px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 25px;
+    }
+
+    .TextoBlanco {
+        font-size: 15px !important;
+    }
+
+    .carousel {
+        height: 400px;
+    }
+
+    .carousel img {
+        height: 400px
+    }
+
+    .carousel-caption {
+        height: 150px;
+    }
+
+    .sectionTexto h1 {
+        font-size: 23px;
+    }
+
+    .sectionTexto2 h3 {
+        font-size: 23px;
+    }
+
+    .sectionPlansTitulo h1 {
+        font-size: 18px;
+    }
+
+    .sectionPlans div ul li {
+        font-size: 12px;
+    }
+
+    .sectionPlans div h2 {
+        font-size: 14px;
+    }
+
+    .sectionPlans div a {
+        font-size: 12px;
+    }
+
+    .sectionPlans div {
+        height: 550px;
+    }
+
+    .sectionPlans {
+        height: 600px;
+    }
+
+    .sectionServicios div h1 {
+        font-size: 17px;
+    }
+
+    .sectionServicios div p {
+        font-size: 17px;
+    }
+
+    .accordion-item h2 button {
+        font-size: 11px;
+    }
+
+    .accordion-body {
+        font-size: 9px;
+    }
+
+    .accordion button {
+        width: 550px;
+    }
+    .sectionContactoTitulo h1{
+        font-size: 19px;
+    }
+    .sectionContactoTitulo h2{
+        font-size: 16px;
+    }
+    .form-label{
+        font-size: 13px;
+    }
+    .form-control{
+        height: 35px;
+    }
+    .btn{
+        font-size: 13px;
+    }
+    .footer {
+        height: 240px;
+    }
+
+    .footer div h2 {
+        font-size: 15px;
+    }
+
+    .footer div ul li a {
+        font-size: 13px;
+    }
+
+    .footer div ul li span {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .fixed img {
+        width: 50px;
+        height: 50px;
+    }
+    .header nav section ul li a {
+        font-size: 13px;
+    }
+
+    .hero {
+        height: 400px;
+    }
+
+    .carousel {
+        height: 400px;
+    }
+
+    .carousel img {
+        height: 400px;
+    }
+
+    .sectionTexto {
+        height: 60px;
+    }
+
+    .sectionTexto h1 {
+        font-size: 18px;
+    }
+
+    .sectionTexto2 h3 {
+        font-size: 18px;
+    }
+
+    .sectionClientes div h2 {
+        font-size: 15px;
+    }
+
+    .sectionClientes div p {
+        font-size: 13px;
+    }
+
+    .sectionClientes div img {
+        height: 130px;
+        width: 130px;
+    }
+
+    .sectionPlansTitulo h1 {
+        font-size: 15px;
+    }
+
+    .sectionPlans div h2 {
+        font-size: 12px;
+    }
+
+    .sectionPlans div ul li {
+        font-size: 10px;
+    }
+
+    .sectionPlans div {
+        height: 550px;
+        width: 170px;
+    }
+
+    .sectionPlans div img {
+        height: 120px;
+        width: 120px;
+    }
+
+    .sectionPlans div a {
+        font-size: 10px;
+    }
+
+    .sectionPlans {
+        height: 600px;
+    }
+
+    .sectionServicios div h1 {
+        font-size: 13px;
+        height: 35px;
+    }
+
+    .sectionServicios div p {
+        font-size: 13px;
+        height: 45px;
+    }
+
+    .accordion-item h2 button {
+        font-size: 10px;
+    }
+
+    .accordion-body {
+        font-size: 8px;
+    }
+
+    .accordion button {
+        width: 450px;
+    }
+
+    .sectionServiciosBoton a {
+        font-size: 12px;
+    }
+    .sectionContactoTitulo h1{
+        font-size: 16px;
+    }
+    .sectionContactoTitulo h2{
+        font-size: 14px;
+    }
+    .form-label{
+        font-size: 12px;
+    }
+    .form-control{
+        height: 30px;
+    }
+    .btn{
+        font-size: 12px;
+    }
+    .footer {
+        height: 185px;
+    }
+
+    .footer div h2 {
+        font-size: 13px;
+    }
+
+    .footer div ul li a {
+        font-size: 11px;
+    }
+
+    .footer div ul li span {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .fixed img {
+        width: 40px;
+        height: 40px;
+    }
+    .header{
+        height: 100px;
+    }
+    .header nav section a img{
+        height: 60px;
+        width: 60px;
+    }
+    .header nav section ul li a {
+        font-size: 7px;
+        margin: 3px;
+        padding: 10px;
+    }
+
+    .hero {
+        height: 400px;
+    }
+
+    .carousel {
+        height: 400px;
+    }
+
+    .carousel img {
+        height: 400px;
+    }
+
+    .sectionTexto {
+        height: 60px;
+    }
+
+    .sectionTexto h1 {
+        font-size: 15px;
+    }
+
+    .sectionTexto2 h3 {
+        font-size: 15px;
+    }
+
+    .sectionClientes div h2 {
+        font-size: 12px;
+    }
+
+    .sectionClientes div p {
+        font-size: 10px;
+    }
+
+    .sectionClientes div img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .sectionPlansTitulo h1 {
+        font-size: 15px;
+    }
+
+    .sectionPlans div h2 {
+        font-size: 10px;
+    }
+
+    .sectionPlans div ul li {
+        font-size: 8px;
+        margin: 13px;
+    }
+
+    .sectionPlans div {
+        height: 550px;
+        width: 140px;
+    }
+
+    .sectionPlans div a {
+        font-size: 8px;
+    }
+
+    .sectionPlans div img {
+        height: 90px;
+        width: 90px;
+    }
+
+    .sectionPlans {
+        height: 600px;
+    }
+
+    .sectionServicios div h1 {
+        font-size: 10px;
+    }
+
+    .sectionServicios div p {
+        font-size: 9px;
+    }
+
+    .accordion-item h2 button {
+        font-size: 9px;
+    }
+
+    .accordion {
+        height: 380px;
+    }
+
+    .accordion-body {
+        font-size: 7px;
+    }
+
+    .accordion button {
+        width: 330px;
+        padding: 10px;
+    }
+
+    .sectionServiciosBoton a {
+        font-size: 11px;
+    }
+    .sectionContactoTitulo h1{
+        font-size: 14px;
+    }
+    .sectionContactoTitulo h2{
+        font-size: 12px;
+    }
+    .form-label{
+        font-size: 11px;
+    }
+    .form-control{
+        height: 25px;
+    }
+    .btn{
+        font-size: 11px;
+    }
+    .footer {
+        height: 185px;
+    }
+
+    .footer div h2 {
+        font-size: 11px;
+    }
+
+    .footer div ul li a {
+        font-size: 9px;
+    }
+
+    .footer div ul li span {
+        font-size: 9px;
+    }
+
+    .footer div a img {
+        height: 13px;
+        width: 13px;
+    }
+}
