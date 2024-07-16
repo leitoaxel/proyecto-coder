@@ -27,6 +27,7 @@
     list-style: none;
     display: flex;
     justify-content: center;
+    padding: 0px;
 }
 
 .header nav section ul li a {
