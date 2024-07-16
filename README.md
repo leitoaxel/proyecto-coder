@@ -1,20 +1,6 @@
 <h1 align="center">Hola! 👋, soy Leo Velasco</h1>
 <h3 align="center">Actualmente estoy estudiando Desarrollo Web, siendo actualmente un lindo hobbie</h3>
 
-- Estoy estudiando Desarrollo Web **...en Coderhouse :)**
-
-- 📫 Mi e-mail: **axel.velasco93@outlook.com**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/leonardoaxelvelasco" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="leonardoaxelvelasco" height="30" width="40" /></a>
-<a href="https://instagram.com/leitoaxel" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="leitoaxel" height="30" width="40" /></a>
-</p>
-
-<h3 align="left">Languages and Tools:</h3>
-<h1 align="center">Hola! 👋, soy Leo Velasco</h1>
-<h3 align="center">Actualmente estoy estudiando Desarrollo Web, siendo actualmente un lindo hobbie</h3>
-
 - 🔭 Trabajo full-time en una empresa farmacéutica en la parte de I.T [en el sector de Marketing & Sales](en varios proyectos!)
 
 - Estoy estudiando Desarrollo Web **...en Coderhouse :)**
