@@ -1,0 +1,15 @@
+{
+  "name": "proyecto-final",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Hola! 👋, soy Leo Velasco</h1> <h3 align=\"center\">Actualmente estoy estudiando Desarrollo Web, siendo actualmente un lindo hobbie</h3>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.1.4"
+  }
+}
