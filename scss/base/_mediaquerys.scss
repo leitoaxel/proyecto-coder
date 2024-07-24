@@ -1,0 +1,651 @@
+@media screen and (max-width: 1024px) {
+    .carousel-caption {
+        h3 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 25px;
+        }
+    }
+
+    .sectionTexto {
+        h1 {
+            font-size: 25px;
+        }
+    }
+
+    .sectionTexto2 {
+        h3 {
+            font-size: 25px;
+        }
+    }
+
+    .sectionPlans {
+        display: grid;
+        grid-template-columns: 50px 50px 50px;
+        grid-template-rows: 100px;
+        gap: 15px;
+        display: flex;
+        padding: 10px;
+        margin: 0px;
+        height: 740px;
+        background-size: cover;
+
+        div {
+            height: 685px;
+
+            h2 {
+                font-size: 18px;
+                padding: 10px;
+            }
+
+            p {
+                font-size: 15px;
+                padding: 10px;
+            }
+
+            img {
+                width: 150px;
+                height: 150px;
+            }
+        }
+    }
+
+    .sectionServicios {
+        div {
+            h1 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .accordion-item {
+        h2 {
+            button {
+                font-size: 13px;
+            }
+        }
+    }
+
+    .accordion-body {
+        font-size: 12px;
+    }
+
+    .accordion-button {
+        width: 750px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    main{
+        .fixed{
+            a{
+                img{
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+        }
+    }
+    .header {
+        nav {
+            section {
+                ul {
+                    li {
+                        a {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .hero {
+        height: 400px;
+
+        .carousel {
+            height: 400px;
+        }
+        .carousel-inner{
+            .carousel-item{
+                img{
+                    height: 400px;
+                }
+                .carousel-caption{
+                    height: 150px;
+                    h3{
+                        font-size: 25px;
+                    }
+                    p{
+                        font-size: 20px;
+                    }
+                    h4{
+                        font-size: 25px;
+                    }
+                    h5{
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
+    .sectionTexto {
+        h1 {
+            font-size: 23px;
+        }
+    }
+
+    .sectionTexto2 {
+        h3 {
+            font-size: 23px;
+        }
+    }
+
+    .sectionPlansTitulo {
+        h1 {
+            font-size: 18px;
+        }
+    }
+
+    .sectionPlans {
+        height: 600px;
+
+        div {
+            height: 550px;
+
+            h2 {
+                font-size: 14px;
+            }
+
+            ul {
+                li {
+                    font-size: 12px;
+                }
+            }
+
+            a {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .sectionServicios {
+        div {
+            h1 {
+                font-size: 17px;
+            }
+
+            p {
+                font-size: 17px;
+            }
+        }
+    }
+
+    .accordion {
+        .accordion-item {
+            .accordion-header {
+                .accordion-button {
+                    font-size: 11px;
+                    width: 550px;
+                }
+            }
+        }
+        .accordion-collapse {
+                .accordion-body {
+                        font-size: 10px;
+                    }
+        }
+    }
+    .sectionContactoTitulo {
+        h1 {
+            font-size: 19px;
+        }
+
+        h2 {
+            font-size: 16px;
+        }
+    }
+
+    form {
+        .mb-3 {
+            .form-label {
+                font-size: 13px;
+            }
+
+            .form-control {
+                height: 35px;
+            }
+        }
+
+        .btn {
+            font-size: 13px;
+        }
+    }
+
+    .footer {
+        height: 240px;
+
+        div {
+            h2 {
+                font-size: 15px;
+            }
+
+            ul {
+                li {
+                    a {
+                        font-size: 13px;
+                    }
+
+                    span {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:600px) {
+    main{
+        .fixed{
+            a{
+                img{
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+        }
+    }
+    .header {
+        nav {
+            section {
+                ul {
+                    li {
+                        a {
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .hero {
+        height: 400px;
+
+        .carousel {
+            height: 400px;
+        }
+        .carousel-inner{
+            .carousel-item{
+                img{
+                    height: 400px;
+                }
+                .carousel-caption{
+                    height: 150x;
+                    h3{
+                        font-size: 15px;
+                    }
+                    p{
+                        font-size: 13px;
+                    }
+                    h4{
+                        font-size: 15px;
+                    }
+                    h5{
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+    .sectionTexto {
+        h1 {
+            font-size: 18px;
+        }
+    }
+
+    .sectionTexto2 {
+        h3 {
+            font-size: 18px;
+        }
+    }
+    .sectionClientes{
+        div{
+            h2{
+                font-size: 15px;
+            }
+            p{
+                font-size: 13px;
+            }
+            img{
+                height: 130px;
+                width: 130px;
+            }
+        }
+    }
+
+    .sectionPlansTitulo {
+        h1 {
+            font-size: 15px;
+        }
+    }
+
+    .sectionPlans {
+        height: 600px;
+
+        div {
+            height: 550px;
+            width: 170px;
+
+            h2 {
+                font-size: 12px;
+            }
+
+            ul {
+                li {
+                    font-size: 10px;
+                }
+            }
+
+            a {
+                font-size: 10px;
+            }
+            img{
+                height: 120px;
+                width: 120px;
+            }
+        }
+    }
+
+    .sectionServicios {
+        div {
+            h1 {
+                font-size: 13px;
+                height: 35px;
+            }
+
+            p {
+                font-size: 13px;
+                height: 45px;
+            }
+        }
+    }
+
+    .accordion {
+        .accordion-item {
+            .accordion-header {
+                .accordion-button {
+                    font-size: 10px;
+                    width: 450px;
+                }
+
+                .accordion-collapse {
+                    .accordion-body {
+                        font-size: 8px;
+                    }
+                }
+            }
+        }
+    }
+    .sectionServiciosBoton{
+        a{
+            font-size: 12px;
+        }
+    }
+    .sectionContacto{
+        .sectionContactoTitulo {
+            h1 {
+                font-size: 16px;
+            }
+    
+            h2 {
+                font-size: 14px;
+            }
+        }
+    }
+    form {
+        .mb-3 {
+            .form-label {
+                font-size: 12px;
+            }
+
+            .form-control {
+                height: 30px;
+            }
+        }
+
+        .btn {
+            font-size: 12px;
+        }
+    }
+
+    .footer {
+        height: 185px;
+
+        div {
+            h2 {
+                font-size: 13px;
+            }
+
+            ul {
+                li {
+                    a {
+                        font-size: 11px;
+                    }
+
+                    span {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:480px) {
+    .header {
+        height: 100px;
+        nav {
+            section {
+                a{
+                    img{
+                        height: 60px;
+                        width: 60px;
+                    }
+                }
+                ul {
+                    li {
+                        a {
+                            font-size: 8px;
+                            margin: 3px;
+                            padding: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .hero {
+        height: 400px;
+
+        .carousel {
+            height: 400px;
+        }
+        .carousel-inner{
+            .carousel-item{
+                img{
+                    height: 400px;
+                }
+                .carousel-caption{
+                    height: 150x;
+                    h3{
+                        font-size: 9px;
+                    }
+                    p{
+                        font-size: 7px;
+                    }
+                    h4{
+                        font-size: 9px;
+                    }
+                    h5{
+                        font-size: 9px;
+                    }
+                }
+            }
+        }
+    }
+    .sectionTexto {
+        height: 60px;
+        h1 {
+            font-size: 15px;
+        }
+    }
+
+    .sectionTexto2 {
+        h3 {
+            font-size: 15px;
+        }
+    }
+    .sectionClientes{
+        div{
+            h2{
+                font-size: 12px;
+            }
+            p{
+                font-size: 10px;
+            }
+            img{
+                height: 100px;
+                width: 100px;
+            }
+        }
+    }
+
+    .sectionPlansTitulo {
+        h1 {
+            font-size: 15px;
+        }
+    }
+
+    .sectionPlans {
+        height: 600px;
+
+        div {
+            height: 550px;
+            width: 140px;
+
+            h2 {
+                font-size: 10px;
+            }
+
+            ul {
+                li {
+                    font-size: 8px;
+                    margin: 13px;
+                }
+            }
+
+            a {
+                font-size: 8px;
+            }
+            img{
+                height: 90px;
+                width: 90px;
+            }
+        }
+    }
+
+    .sectionServicios {
+        div {
+            h1 {
+                font-size: 10px;
+            }
+
+            p {
+                font-size: 9px;
+            }
+        }
+    }
+
+    .accordion {
+        height: 380px;
+        .accordion-item {
+            .accordion-header {
+                .accordion-button {
+                    font-size: 10px;
+                    width: 330px;
+                    padding: 10px;
+                }
+
+                .accordion-collapse {
+                    .accordion-body {
+                        font-size: 7px;
+                    }
+                }
+            }
+        }
+    }
+    .sectionServiciosBoton{
+        a{
+            font-size: 11px;
+        }
+    }
+    .sectionContacto{
+        .sectionContactoTitulo {
+            h1 {
+                font-size: 14px;
+            }
+    
+            h2 {
+                font-size: 12px;
+            }
+        }
+    }
+    form {
+        .mb-3 {
+            .form-label {
+                font-size: 11px;
+            }
+
+            .form-control {
+                height: 25px;
+            }
+        }
+
+        .btn {
+            font-size: 11px;
+        }
+    }
+
+    .footer {
+        div {
+            h2 {
+                font-size: 11px;
+            }
+
+            ul {
+                li {
+                    a {
+                        font-size: 9px;
+                    }
+
+                    span {
+                        font-size: 9px;
+                    }
+                }
+            }
+            a{
+                img{
+                    height: 15px;
+                    width: 15px;
+                }
+            }
+        }
+    }
+}

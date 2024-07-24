@@ -1,0 +1,51 @@
+.sectionTexto{
+    text-align: center;
+    background-color: gainsboro;
+    margin-bottom: 20px;
+    height: 70px;
+    h1{
+        display: inline-block;
+        padding: 5px;
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 30px;
+    }
+}
+.sectionClientes{
+    background-color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    display: grid;
+    grid-template-rows: 310px;
+    grid-template-columns: auto auto;
+    margin: 5px;
+    gap: 20px;
+    text-align: center;
+    div{
+        margin: 10px;
+        h2{
+            font-size: 23px;
+            text-align: center;
+        }
+        img{
+            height: 100px;
+            width: 150px;
+        }
+        p{
+            font-size: 15px;
+            padding-bottom: 20px;
+        }
+    }
+}
+.sectionTexto2{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: gainsboro;
+    h3{
+        padding: 5px;
+        display: inline-block;
+        font-weight: bold;
+    }
+}

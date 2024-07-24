@@ -1,0 +1,70 @@
+.sectionServicios{
+    background-color: white;
+    padding-bottom: 10px;
+    div{
+        h1{
+            text-align: center;
+            background-color: gainsboro;
+            font-size: 25px;
+            font-weight: bold;
+            height: 50px;
+            padding: 10px;
+        }
+        p{
+            text-align: center;
+            margin-bottom: 15px;
+            font-size: 20px;
+            font-weight: bold;
+            background-color: gainsboro;
+            height: 70px;
+            padding: 15px;
+            font-size: 25px;
+        }
+    }
+}
+.accordion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 470px;
+    .accordion-item{
+        .accordion-header{
+            .accordion-button{
+                color: black;
+                border: 2px black solid;
+                width: 950px;
+                margin: 5px;
+                &:active{
+                    background-color: rgba(0, 0, 0, 0.187);
+                }
+            }
+        }
+    }
+    .accordion-collapse{
+        .accordion-body{
+            font-size: 15px;
+        }
+    }
+}
+.sectionServiciosBoton{
+    display: flex;
+    justify-content: center;
+    a{
+        text-align: center;
+        background-color: gainsboro;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        padding: 5px;
+        border: 3px black solid;
+        border-radius: 5px;
+        &:hover{
+            background-color: black;
+            color: white;
+        }
+        &:active{
+            background-color: gainsboro;
+            color: black;
+        }
+    }
+}

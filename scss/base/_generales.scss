@@ -1,0 +1,27 @@
+/**-----FONTS-----**/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/**-----RESET-----**/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**-----BODY-----**/
+
+.body {
+    font-family: "Montserrat", sans-serif;
+}
+
+/**-----IMPORTANTS-----**/
+
+
+/**TEXTO EN BLANCO PARA SEGUNDA IMAGEN DE CAROUSEL DE BOOTSTRAP**/
+
+.TextoBlanco {
+    color: white !important;
+    font-size: 20px !important;
+}

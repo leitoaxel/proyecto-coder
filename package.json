@@ -4,7 +4,8 @@
   "description": "<h1 align=\"center\">Hola! 👋, soy Leo Velasco</h1> <h3 align=\"center\">Actualmente estoy estudiando Desarrollo Web, siendo actualmente un lindo hobbie</h3>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilos.scss css/estilos.css", "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "",
   "license": "ISC",

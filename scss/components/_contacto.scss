@@ -1,0 +1,43 @@
+.sectionContacto{
+    background-color: white;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .sectionContactoTitulo{
+        text-align: center;
+        padding: 5px;
+        margin-bottom: 10px;
+        background-color: gainsboro;
+        h1{
+            font-weight: bold;
+            font-size: 23px;
+        }
+        h2{
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+    }
+}
+form{
+    .mb-3{
+        padding: 5px;
+        margin: 2px;
+        width: 50%;
+    }
+    .btn{
+        background-color: gainsboro;
+        color: black;
+        border: 2px black solid;
+        font-weight: bold;
+        padding: 5px;
+        margin: 5px;
+        &:hover{
+            background-color: black;
+            color: white;
+            border: 2px black solid;
+        }
+    }
+}

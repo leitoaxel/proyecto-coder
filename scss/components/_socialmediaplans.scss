@@ -1,0 +1,59 @@
+.sectionPlansTitulo{
+    text-align: center;
+    padding: 15px;
+    background-color: gainsboro;
+    h1{
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+.sectionPlans{
+    background-color: gainsboro;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    height: 720px;
+    text-align: center;
+    justify-content: space-around;
+    background-image: url(../images/Carousel1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    div{
+        border: 3px black solid;
+        width: 300px;
+        height: 690px;
+        background-color: gainsboro;
+        margin-top: 20px;
+        h2{
+            font-size: 23px;
+            padding: 15px;
+        }
+        img{
+            width: 200x;
+            height: 200px;
+            border: 2px black solid;
+            padding: 4px;
+        }
+        ul{
+            padding: 0px;
+            li{
+                list-style: none;
+                text-align: center;
+                margin: 15px;
+                color: black;
+            }
+        }
+        a{
+            background-color: black;
+            color: white;
+            border: 3px black solid;
+            border-radius: 5px;
+            text-decoration: none;
+            padding: 5px;
+            font-weight: bold;
+            &:hover{
+                background-color: gainsboro;
+            }
+        }
+    }
+}
