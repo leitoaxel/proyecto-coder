@@ -31,8 +31,11 @@
                         font-size: 20px;
                         font-family: "DM Sans", sans-serif;
                         padding: 10px;
+                        transition-duration: 1s;
+                        transition: 1s;
                         &:hover{
                             text-decoration: underline;
+                            font-size: 23px;
                         }
                     }
                 }

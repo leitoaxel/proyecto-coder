@@ -8,6 +8,11 @@ main{
             img{
                 width: 70px;
                 height: 70px;
+                transition-duration: 1s;
+                &:hover{
+                    width: 75px;
+                    height: 75px;
+                }
             }
         }
     }

@@ -43,9 +43,12 @@
       font-weight: 500;
       font-size: 20px;
       font-family: "DM Sans", sans-serif;
-      padding: 10px; }
+      padding: 10px;
+      transition-duration: 1s;
+      transition: 1s; }
       .header nav section ul li a:hover {
-        text-decoration: underline; }
+        text-decoration: underline;
+        font-size: 23px; }
 
 main .fixed {
   position: fixed;
@@ -54,7 +57,11 @@ main .fixed {
   z-index: 1; }
   main .fixed a img {
     width: 70px;
-    height: 70px; }
+    height: 70px;
+    transition-duration: 1s; }
+    main .fixed a img:hover {
+      width: 75px;
+      height: 75px; }
 
 .hero {
   background-color: white;
@@ -99,23 +106,35 @@ main .fixed {
 
 .sectionClientes {
   background-color: white;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  display: grid;
-  grid-template-rows: 310px;
-  grid-template-columns: auto auto;
-  margin: 5px;
-  gap: 20px;
-  text-align: center; }
+  height: 420px;
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  text-align: center;
+  gap: 120px;
+  align-items: center;
+  justify-content: center; }
   .sectionClientes div {
-    margin: 10px; }
+    background-color: gainsboro;
+    align-content: center;
+    border: 2px black solid;
+    border-radius: 5px;
+    width: 300px;
+    height: 350px;
+    transition-duration: 1s; }
+    .sectionClientes div:hover {
+      height: 380px;
+      width: 320px; }
     .sectionClientes div h2 {
+      padding: 5px;
       font-size: 23px;
-      text-align: center; }
+      text-align: center;
+      font-weight: bold; }
     .sectionClientes div img {
       height: 100px;
-      width: 150px; }
+      width: 100px; }
     .sectionClientes div p {
+      padding: 5px;
       font-size: 15px;
       padding-bottom: 20px; }
 
@@ -140,35 +159,29 @@ main .fixed {
 
 .sectionPlans {
   background-color: gainsboro;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto;
-  height: 720px;
-  text-align: center;
-  justify-content: space-around;
+  height: 1150px;
   background-image: url(../images/Carousel1.jpg);
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
   .sectionPlans div {
     border: 3px black solid;
-    width: 300px;
-    height: 690px;
+    width: 1000px;
+    height: 340px;
     background-color: gainsboro;
     margin-top: 20px; }
     .sectionPlans div h2 {
       font-size: 23px;
-      padding: 15px; }
-    .sectionPlans div img {
-      width: 200x;
-      height: 200px;
-      border: 2px black solid;
-      padding: 4px; }
+      padding: 10px;
+      font-weight: bold; }
     .sectionPlans div ul {
+      display: inline-block;
       padding: 0px; }
       .sectionPlans div ul li {
         list-style: none;
-        text-align: center;
-        margin: 15px;
+        margin: 20px;
         color: black; }
     .sectionPlans div a {
       background-color: black;
@@ -177,9 +190,11 @@ main .fixed {
       border-radius: 5px;
       text-decoration: none;
       padding: 5px;
-      font-weight: bold; }
+      font-weight: bold;
+      transition-duration: 1s; }
       .sectionPlans div a:hover {
-        background-color: gainsboro; }
+        background-color: gainsboro;
+        padding: 8px; }
 
 .sectionServicios {
   background-color: white;
@@ -227,10 +242,12 @@ main .fixed {
     color: black;
     padding: 5px;
     border: 3px black solid;
-    border-radius: 5px; }
+    border-radius: 5px;
+    transition-duration: 1s; }
     .sectionServiciosBoton a:hover {
       background-color: black;
-      color: white; }
+      color: white;
+      padding: 8px; }
     .sectionServiciosBoton a:active {
       background-color: gainsboro;
       color: black; }
@@ -266,11 +283,13 @@ form .btn {
   border: 2px black solid;
   font-weight: bold;
   padding: 5px;
-  margin: 5px; }
+  margin: 5px;
+  transition: 1s; }
   form .btn:hover {
     background-color: black;
     color: white;
-    border: 2px black solid; }
+    border: 2px black solid;
+    padding: 8px; }
 
 .footer {
   background-color: gainsboro;
@@ -290,7 +309,11 @@ form .btn {
   .footer div a img {
     height: 20px;
     width: 20px;
-    margin: 2px; }
+    margin: 2px;
+    transition-duration: 1s; }
+    .footer div a img:hover {
+      height: 22px;
+      width: 22px; }
   .footer div ul {
     padding: 0px; }
     .footer div ul li {
@@ -300,11 +323,13 @@ form .btn {
         height: 16px;
         width: 16px; }
       .footer div ul li a {
+        transition-duration: 1s;
         text-decoration: none;
         color: black;
         font-size: 16px; }
         .footer div ul li a:hover {
-          text-decoration: underline; }
+          text-decoration: underline;
+          font-size: 17px; }
       .footer div ul li span {
         font-size: 16px;
         color: black; }

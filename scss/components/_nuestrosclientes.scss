@@ -13,25 +13,38 @@
 }
 .sectionClientes{
     background-color: white;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    display: grid;
-    grid-template-rows: 310px;
-    grid-template-columns: auto auto;
-    margin: 5px;
-    gap: 20px;
+    height: 420px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
     text-align: center;
+    gap: 120px;
+    align-items: center;
+    justify-content: center;
     div{
-        margin: 10px;
+        background-color: gainsboro;
+        align-content: center;
+        border: 2px black solid;
+        border-radius: 5px;
+        width: 300px;
+        height: 350px;
+        transition-duration: 1s;
+        &:hover{
+            height: 380px;
+            width: 320px;
+        }
         h2{
+            padding: 5px;
             font-size: 23px;
             text-align: center;
+            font-weight: bold;
         }
         img{
             height: 100px;
-            width: 150px;
+            width: 100px;
         }
         p{
+            padding: 5px;
             font-size: 15px;
             padding-bottom: 20px;
         }

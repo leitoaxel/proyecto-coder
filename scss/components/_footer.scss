@@ -20,6 +20,11 @@
                 height: 20px;
                 width: 20px;
                 margin: 2px;
+                transition-duration: 1s;
+                &:hover{
+                    height: 22px;
+                    width: 22px;
+                }
             }
         }
         ul{
@@ -32,11 +37,13 @@
                     width: 16px;
                 }
                 a{
+                    transition-duration: 1s;
                     text-decoration: none;
                     color: black;
                     font-size: 16px;
                     &:hover{
-                        text-decoration: underline; 
+                        text-decoration: underline;
+                        font-size: 17px;
                     }
                 }
                 span{
