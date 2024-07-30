@@ -74,15 +74,15 @@ main .fixed {
       height: 850px; }
     .hero .carousel .carousel-caption {
       height: 200px; }
-      .hero .carousel .carousel-caption h3 {
+      .hero .carousel .carousel-caption h1 {
         font-size: 40px;
         color: black;
         font-weight: bold; }
-      .hero .carousel .carousel-caption h4 {
+      .hero .carousel .carousel-caption h2 {
         font-size: 40px;
         color: white;
         font-weight: bold; }
-      .hero .carousel .carousel-caption h5 {
+      .hero .carousel .carousel-caption h3 {
         font-size: 40px;
         color: white;
         font-weight: bold; }
@@ -106,7 +106,7 @@ main .fixed {
 
 .sectionClientes {
   background-color: white;
-  height: 420px;
+  height: 460px;
   display: flex;
   flex-direction: row;
   margin: 20px;
@@ -120,23 +120,24 @@ main .fixed {
     border: 2px black solid;
     border-radius: 5px;
     width: 300px;
-    height: 350px;
+    height: 460px;
     transition-duration: 1s; }
     .sectionClientes div:hover {
-      height: 380px;
-      width: 320px; }
+      height: 430px;
+      width: 340px; }
     .sectionClientes div h2 {
       padding: 5px;
+      margin: 5px;
       font-size: 23px;
       text-align: center;
       font-weight: bold; }
     .sectionClientes div img {
-      height: 100px;
-      width: 100px; }
+      height: 250px;
+      width: 250px;
+      padding: 0px; }
     .sectionClientes div p {
       padding: 5px;
-      font-size: 15px;
-      padding-bottom: 20px; }
+      font-size: 15px; }
 
 .sectionTexto2 {
   width: 100%;
@@ -176,6 +177,10 @@ main .fixed {
       font-size: 23px;
       padding: 10px;
       font-weight: bold; }
+    .sectionPlans div h3 {
+      font-size: 23px;
+      padding: 10px;
+      font-weight: bold; }
     .sectionPlans div ul {
       display: inline-block;
       padding: 0px; }
@@ -206,7 +211,7 @@ main .fixed {
     font-weight: bold;
     height: 50px;
     padding: 10px; }
-  .sectionServicios div p {
+  .sectionServicios div h3 {
     text-align: center;
     margin-bottom: 15px;
     font-size: 20px;
@@ -302,7 +307,7 @@ form .btn {
   grid-template-rows: auto;
   border-top: 1px black solid;
   padding-left: 0px; }
-  .footer div h2 {
+  .footer div h4 {
     font-size: 18px;
     font-weight: bold;
     margin: 5px; }
@@ -335,38 +340,52 @@ form .btn {
         color: black; }
 
 @media screen and (max-width: 1024px) {
-  .carousel-caption h3 {
+  .hero .carousel .carousel-caption h1 {
     font-size: 30px; }
-  .carousel-caption p {
+  .hero .carousel .carousel-caption h2 {
+    font-size: 30px; }
+  .hero .carousel .carousel-caption h3 {
+    font-size: 30px; }
+  .hero .carousel .carousel-caption p {
     font-size: 25px; }
   .sectionTexto h1 {
     font-size: 25px; }
   .sectionTexto2 h3 {
     font-size: 25px; }
+  .sectionClientes {
+    height: 2100px;
+    display: inline-block; }
+    .sectionClientes div {
+      transition-duration: 1s;
+      display: inline-block;
+      margin: 30px;
+      width: 700px;
+      height: 450px; }
+      .sectionClientes div:hover {
+        height: 480px;
+        width: 740px; }
+      .sectionClientes div h2 {
+        font-size: 18px; }
+      .sectionClientes div p {
+        font-size: 15px; }
+      .sectionClientes div img {
+        height: 300px;
+        width: 300px; }
   .sectionPlans {
-    display: grid;
-    grid-template-columns: 50px 50px 50px;
-    grid-template-rows: 100px;
-    gap: 15px;
-    display: flex;
-    padding: 10px;
-    margin: 0px;
-    height: 740px;
-    background-size: cover; }
+    height: 1300px;
+    padding: 50px; }
     .sectionPlans div {
-      height: 685px; }
+      height: 380px;
+      width: 800px; }
       .sectionPlans div h2 {
         font-size: 18px;
         padding: 10px; }
-      .sectionPlans div p {
-        font-size: 15px;
+      .sectionPlans div h3 {
+        font-size: 18px;
         padding: 10px; }
-      .sectionPlans div img {
-        width: 150px;
-        height: 150px; }
   .sectionServicios div h1 {
     font-size: 20px; }
-  .sectionServicios div p {
+  .sectionServicios div h3 {
     font-size: 20px; }
   .accordion-item h2 button {
     font-size: 13px; }
@@ -401,12 +420,33 @@ form .btn {
     font-size: 23px; }
   .sectionTexto2 h3 {
     font-size: 23px; }
+  .sectionClientes {
+    height: 2100px;
+    display: inline-block; }
+    .sectionClientes div {
+      transition-duration: 1s;
+      display: inline-block;
+      margin: 30px;
+      width: 600px;
+      height: 450px; }
+      .sectionClientes div:hover {
+        height: 480px;
+        width: 640px; }
+      .sectionClientes div h2 {
+        font-size: 18px; }
+      .sectionClientes div p {
+        font-size: 17px; }
+      .sectionClientes div img {
+        height: 250px;
+        width: 250px; }
   .sectionPlansTitulo h1 {
     font-size: 18px; }
   .sectionPlans {
-    height: 600px; }
+    height: 1100px;
+    padding: 50px; }
     .sectionPlans div {
-      height: 550px; }
+      height: 320px;
+      width: 600px; }
       .sectionPlans div h2 {
         font-size: 14px; }
       .sectionPlans div ul li {
@@ -415,7 +455,7 @@ form .btn {
         font-size: 12px; }
   .sectionServicios div h1 {
     font-size: 17px; }
-  .sectionServicios div p {
+  .sectionServicios div h3 {
     font-size: 17px; }
   .accordion .accordion-item .accordion-header .accordion-button {
     font-size: 11px;
@@ -467,20 +507,30 @@ form .btn {
     font-size: 18px; }
   .sectionTexto2 h3 {
     font-size: 18px; }
-  .sectionClientes div h2 {
-    font-size: 15px; }
-  .sectionClientes div p {
-    font-size: 13px; }
-  .sectionClientes div img {
-    height: 130px;
-    width: 130px; }
+  .sectionClientes {
+    height: 2100px;
+    display: inline-block; }
+    .sectionClientes div {
+      transition-duration: 1s;
+      display: inline-block;
+      margin: 30px;
+      width: 500px;
+      height: 450px; }
+      .sectionClientes div:hover {
+        height: 470px;
+        width: 530px; }
+      .sectionClientes div h2 {
+        font-size: 22px; }
+      .sectionClientes div p {
+        font-size: 18px; }
   .sectionPlansTitulo h1 {
     font-size: 15px; }
   .sectionPlans {
-    height: 600px; }
+    height: 1100px;
+    padding: 50px; }
     .sectionPlans div {
-      height: 550px;
-      width: 170px; }
+      height: 300px;
+      width: 500px; }
       .sectionPlans div h2 {
         font-size: 12px; }
       .sectionPlans div ul li {
@@ -493,7 +543,7 @@ form .btn {
   .sectionServicios div h1 {
     font-size: 13px;
     height: 35px; }
-  .sectionServicios div p {
+  .sectionServicios div h3 {
     font-size: 13px;
     height: 45px; }
   .accordion .accordion-item .accordion-header .accordion-button {
@@ -515,7 +565,7 @@ form .btn {
     font-size: 12px; }
   .footer {
     height: 185px; }
-    .footer div h2 {
+    .footer div h4 {
       font-size: 13px; }
     .footer div ul li a {
       font-size: 11px; }
@@ -554,24 +604,36 @@ form .btn {
       font-size: 15px; }
   .sectionTexto2 h3 {
     font-size: 15px; }
-  .sectionClientes div h2 {
-    font-size: 12px; }
-  .sectionClientes div p {
-    font-size: 10px; }
-  .sectionClientes div img {
-    height: 100px;
-    width: 100px; }
+  .sectionClientes {
+    height: 2200px;
+    display: inline-block; }
+    .sectionClientes div {
+      transition-duration: 1s;
+      display: inline-block;
+      margin: 30px;
+      width: 250px;
+      height: 480px; }
+      .sectionClientes div:hover {
+        height: 490px;
+        width: 270px; }
+      .sectionClientes div h2 {
+        font-size: 20px; }
+      .sectionClientes div p {
+        font-size: 16px; }
   .sectionPlansTitulo h1 {
     font-size: 15px; }
   .sectionPlans {
-    height: 600px; }
+    height: 1000px;
+    padding: 50px; }
     .sectionPlans div {
-      height: 550px;
-      width: 140px; }
+      height: 280px;
+      width: 320px; }
       .sectionPlans div h2 {
-        font-size: 10px; }
+        font-size: 12px; }
+      .sectionPlans div h3 {
+        font-size: 12px; }
       .sectionPlans div ul li {
-        font-size: 8px;
+        font-size: 10px;
         margin: 13px; }
       .sectionPlans div a {
         font-size: 8px; }
@@ -579,9 +641,9 @@ form .btn {
         height: 90px;
         width: 90px; }
   .sectionServicios div h1 {
-    font-size: 10px; }
-  .sectionServicios div p {
-    font-size: 9px; }
+    font-size: 11px; }
+  .sectionServicios div h3 {
+    font-size: 11px; }
   .accordion {
     height: 380px; }
     .accordion .accordion-item .accordion-header .accordion-button {

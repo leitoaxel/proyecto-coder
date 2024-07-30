@@ -1,14 +1,22 @@
 @media screen and (max-width: 1024px) {
-    .carousel-caption {
-        h3 {
-            font-size: 30px;
-        }
-
-        p {
-            font-size: 25px;
+    .hero{
+        .carousel{
+            .carousel-caption {
+                h1 {
+                    font-size: 30px;
+                }
+                h2 {
+                    font-size: 30px;
+                }
+                h3 {
+                    font-size: 30px;
+                }
+                p {
+                    font-size: 25px;
+                }
+            }
         }
     }
-
     .sectionTexto {
         h1 {
             font-size: 25px;
@@ -20,34 +28,45 @@
             font-size: 25px;
         }
     }
-
+    .sectionClientes{
+        height: 2100px;
+        display: inline-block;
+        div{
+            transition-duration: 1s;
+            &:hover{
+                height: 480px;
+                width: 740px;
+            }
+            display: inline-block;
+            margin: 30px;
+            width: 700px;
+            height: 450px;
+            h2{
+            font-size: 18px;
+            }
+            p{
+                font-size: 15px;
+            }
+            img{
+                height: 300px;
+                width: 300px;
+            }
+        }
+    }
     .sectionPlans {
-        display: grid;
-        grid-template-columns: 50px 50px 50px;
-        grid-template-rows: 100px;
-        gap: 15px;
-        display: flex;
-        padding: 10px;
-        margin: 0px;
-        height: 740px;
-        background-size: cover;
-
+        height: 1300px;
+        padding: 50px;
         div {
-            height: 685px;
-
+            height: 380px;
+            width: 800px;
             h2 {
                 font-size: 18px;
                 padding: 10px;
             }
 
-            p {
-                font-size: 15px;
+            h3 {
+                font-size: 18px;
                 padding: 10px;
-            }
-
-            img {
-                width: 150px;
-                height: 150px;
             }
         }
     }
@@ -58,7 +77,7 @@
                 font-size: 20px;
             }
 
-            p {
+            h3 {
                 font-size: 20px;
             }
         }
@@ -146,7 +165,31 @@
             font-size: 23px;
         }
     }
-
+    .sectionClientes{
+        height: 2100px;
+        display: inline-block;
+        div{
+            transition-duration: 1s;
+            &:hover{
+                height: 480px;
+                width: 640px;
+            }
+            display: inline-block;
+            margin: 30px;
+            width: 600px;
+            height: 450px;
+            h2{
+            font-size: 18px;
+            }
+            p{
+                font-size: 17px;
+            }
+            img{
+                height: 250px;
+                width: 250px;
+            }
+        }
+    }
     .sectionPlansTitulo {
         h1 {
             font-size: 18px;
@@ -154,11 +197,11 @@
     }
 
     .sectionPlans {
-        height: 600px;
-
+        height: 1100px;
+        padding: 50px;
         div {
-            height: 550px;
-
+            height: 320px;
+            width: 600px;
             h2 {
                 font-size: 14px;
             }
@@ -181,7 +224,7 @@
                 font-size: 17px;
             }
 
-            p {
+            h3 {
                 font-size: 17px;
             }
         }
@@ -316,16 +359,23 @@
         }
     }
     .sectionClientes{
+        height: 2100px;
+        display: inline-block;
         div{
+            transition-duration: 1s;
+            &:hover{
+                height: 470px;
+                width: 530px;
+            }
+            display: inline-block;
+            margin: 30px;
+            width: 500px;
+            height: 450px;
             h2{
-                font-size: 15px;
+            font-size: 22px;
             }
             p{
-                font-size: 13px;
-            }
-            img{
-                height: 130px;
-                width: 130px;
+                font-size: 18px;
             }
         }
     }
@@ -337,12 +387,11 @@
     }
 
     .sectionPlans {
-        height: 600px;
-
+        height: 1100px;
+        padding: 50px;
         div {
-            height: 550px;
-            width: 170px;
-
+            height: 300px;
+            width: 500px;
             h2 {
                 font-size: 12px;
             }
@@ -370,7 +419,7 @@
                 height: 35px;
             }
 
-            p {
+            h3 {
                 font-size: 13px;
                 height: 45px;
             }
@@ -429,7 +478,7 @@
         height: 185px;
 
         div {
-            h2 {
+            h4 {
                 font-size: 13px;
             }
 
@@ -513,16 +562,23 @@
         }
     }
     .sectionClientes{
+        height: 2200px;
+        display: inline-block;
         div{
+            transition-duration: 1s;
+            &:hover{
+                height: 490px;
+                width: 270px;
+            }
+            display: inline-block;
+            margin: 30px;
+            width: 250px;
+            height: 480px;
             h2{
-                font-size: 12px;
+            font-size: 20px;
             }
             p{
-                font-size: 10px;
-            }
-            img{
-                height: 100px;
-                width: 100px;
+                font-size: 16px;
             }
         }
     }
@@ -534,19 +590,21 @@
     }
 
     .sectionPlans {
-        height: 600px;
-
+        height: 1000px;
+        padding: 50px;
         div {
-            height: 550px;
-            width: 140px;
+            height: 280px;
+            width: 320px;
 
             h2 {
-                font-size: 10px;
+                font-size: 12px;
             }
-
+            h3 {
+                font-size: 12px;
+            }
             ul {
                 li {
-                    font-size: 8px;
+                    font-size: 10px;
                     margin: 13px;
                 }
             }
@@ -564,11 +622,11 @@
     .sectionServicios {
         div {
             h1 {
-                font-size: 10px;
+                font-size: 11px;
             }
 
-            p {
-                font-size: 9px;
+            h3 {
+                font-size: 11px;
             }
         }
     }
