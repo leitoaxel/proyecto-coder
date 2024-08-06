@@ -225,11 +225,13 @@ main .fixed {
   height: 470px; }
   .accordion .accordion-item .accordion-header .accordion-button {
     color: black;
+    box-shadow: none;
     border: 2px black solid;
     width: 950px;
     margin: 5px; }
-    .accordion .accordion-item .accordion-header .accordion-button:active {
-      background-color: black; }
+  .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+    background-color: transparent;
+    box-shadow: black; }
   .accordion .accordion-collapse .accordion-body {
     font-size: 15px; }
 
@@ -736,7 +738,7 @@ form {
             text-decoration: underline;
             font-size: 13px; }
           .header nav section ul li a.active {
-            font-size: 14px;
+            font-size: 12px;
             color: darkred;
             font-weight: bold;
             text-decoration: underline; } }

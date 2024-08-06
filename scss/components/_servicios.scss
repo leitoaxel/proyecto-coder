@@ -30,12 +30,14 @@
         .accordion-header{
             .accordion-button{
                 color: $color-principal;
+                box-shadow: none;
                 border: 2px $color-principal solid;
                 width: 950px;
                 margin: 5px;
-                &:active{
-                    background-color: $color-principal;
-                }
+            }
+            .accordion-button:not(.collapsed){
+                background-color: transparent;
+                box-shadow: $color-principal;
             }
         }
     }
