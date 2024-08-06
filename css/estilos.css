@@ -50,7 +50,7 @@
           font-size: 23px; }
         .header nav section ul li a.active {
           font-size: 23px;
-          color: darkred;
+          color: gray;
           font-weight: bold;
           text-decoration: underline; }
 
@@ -418,7 +418,7 @@ form {
       font-size: 17px; }
     .header nav section ul li a.active {
       font-size: 16px;
-      color: darkred;
+      color: gray;
       font-weight: bold;
       text-decoration: underline; }
   .hero {
@@ -515,7 +515,7 @@ form {
       font-size: 15px; }
     .header nav section ul li a.active {
       font-size: 16px;
-      color: darkred;
+      color: gray;
       font-weight: bold;
       text-decoration: underline; }
   .sectionTexto h1 {
@@ -617,7 +617,7 @@ form {
         font-size: 14px; }
       .header nav section ul li a.active {
         font-size: 14px;
-        color: darkred;
+        color: gray;
         font-weight: bold;
         text-decoration: underline; }
   .sectionTexto {
@@ -739,6 +739,6 @@ form {
             font-size: 13px; }
           .header nav section ul li a.active {
             font-size: 12px;
-            color: darkred;
+            color: gray;
             font-weight: bold;
             text-decoration: underline; } }
