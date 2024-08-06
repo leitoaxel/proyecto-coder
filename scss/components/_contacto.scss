@@ -1,14 +1,12 @@
 .sectionContacto{
-    background-color: white;
+    background-color: $color-terciario;
     padding-bottom: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    @include flex (flex, column, center);
     .sectionContactoTitulo{
         text-align: center;
         padding: 5px;
         margin-bottom: 10px;
-        background-color: gainsboro;
+        background-color: $color-secundario;
         h1{
             font-weight: bold;
             font-size: 23px;
@@ -28,17 +26,17 @@ form{
         width: 50%;
     }
     .btn{
-        background-color: gainsboro;
-        color: black;
-        border: 2px black solid;
+        background-color: $color-secundario;
+        color: $color-principal;
+        border: 2px $color-principal solid;
         font-weight: bold;
         padding: 5px;
         margin: 5px;
         transition: 1s;
         &:hover{
-            background-color: black;
-            color: white;
-            border: 2px black solid;
+            background-color: $color-principal;
+            color: $color-terciario;
+            border: 2px $color-principal solid;
             padding: 8px;
         }
     }

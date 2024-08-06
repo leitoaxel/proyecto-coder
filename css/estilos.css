@@ -10,45 +10,44 @@
 .body {
   font-family: "Montserrat", sans-serif; }
 
-/**-----IMPORTANTS-----**/
-/**TEXTO EN BLANCO PARA SEGUNDA IMAGEN DE CAROUSEL DE BOOTSTRAP**/
-.TextoBlanco {
-  color: white !important;
-  font-size: 20px !important; }
+/**-----VARIABLES-----**/
+/**-----EXTENDS-----**/
+.hero, .sectionPlans, .accordion {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
 
+/**-----MIXINS-----**/
 .header {
   background-color: black;
   position: sticky;
   top: 0;
   height: 160px;
   width: 100%;
-  display: flex;
-  flex-direction: column;
   z-index: 1; }
-  .header nav section a {
+  .header nav section {
     display: flex;
     justify-content: center; }
     .header nav section a img {
       width: 110px;
-      height: 110px;
-      display: flex; }
-  .header nav section ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 0px; }
-    .header nav section ul li a {
-      color: white;
-      text-decoration: none;
-      font-weight: 500;
-      font-size: 20px;
-      font-family: "DM Sans", sans-serif;
-      padding: 10px;
-      transition-duration: 1s;
-      transition: 1s; }
-      .header nav section ul li a:hover {
-        text-decoration: underline;
-        font-size: 23px; }
+      height: 110px; }
+    .header nav section ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      padding: 0px; }
+      .header nav section ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 20px;
+        font-family: "DM Sans", sans-serif;
+        padding: 10px;
+        transition-duration: 1s; }
+        .header nav section ul li a:hover {
+          text-decoration: underline;
+          font-size: 23px; }
 
 main .fixed {
   position: fixed;
@@ -64,33 +63,32 @@ main .fixed {
       height: 75px; }
 
 .hero {
-  background-color: white;
-  height: 850px;
-  width: 100%; }
-  .hero .carousel {
-    height: 800px;
-    width: 100%; }
-    .hero .carousel .carousel-item img {
-      height: 850px; }
-    .hero .carousel .carousel-caption {
-      height: 200px; }
-      .hero .carousel .carousel-caption h1 {
-        font-size: 40px;
-        color: black;
-        font-weight: bold; }
-      .hero .carousel .carousel-caption h2 {
-        font-size: 40px;
-        color: white;
-        font-weight: bold; }
-      .hero .carousel .carousel-caption h3 {
-        font-size: 40px;
-        color: white;
-        font-weight: bold; }
-      .hero .carousel .carousel-caption p {
-        font-size: 25px;
-        margin: 2px;
-        color: black;
-        font-weight: bold; }
+  background-color: gainsboro;
+  height: 690px; }
+  .hero div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 4px black solid;
+    width: 1100px;
+    height: 150px;
+    transition-duration: 1s; }
+    .hero div:hover {
+      width: 1200px;
+      height: 170px; }
+    .hero div h1 {
+      font-size: 60px;
+      text-align: center;
+      font-weight: bold;
+      color: black; }
+    .hero div h2 {
+      font-size: 30px;
+      text-align: center;
+      color: black; }
+  .hero h3 {
+    text-align: center;
+    font-size: 20px;
+    margin: 50px; }
 
 .sectionTexto {
   text-align: center;
@@ -106,7 +104,7 @@ main .fixed {
 
 .sectionClientes {
   background-color: white;
-  height: 460px;
+  height: 510px;
   display: flex;
   flex-direction: row;
   margin: 20px;
@@ -123,7 +121,7 @@ main .fixed {
     height: 460px;
     transition-duration: 1s; }
     .sectionClientes div:hover {
-      height: 430px;
+      height: 480px;
       width: 340px; }
     .sectionClientes div h2 {
       padding: 5px;
@@ -159,14 +157,10 @@ main .fixed {
     font-weight: bold; }
 
 .sectionPlans {
-  background-color: gainsboro;
   height: 1150px;
   background-image: url(../images/Carousel1.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
+  background-size: cover; }
   .sectionPlans div {
     border: 3px black solid;
     width: 1000px;
@@ -203,7 +197,8 @@ main .fixed {
 
 .sectionServicios {
   background-color: white;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  height: 700px; }
   .sectionServicios div h1 {
     text-align: center;
     background-color: gainsboro;
@@ -222,9 +217,6 @@ main .fixed {
     font-size: 25px; }
 
 .accordion {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   height: 470px; }
   .accordion .accordion-item .accordion-header .accordion-button {
     color: black;
@@ -232,7 +224,7 @@ main .fixed {
     width: 950px;
     margin: 5px; }
     .accordion .accordion-item .accordion-header .accordion-button:active {
-      background-color: rgba(0, 0, 0, 0.187); }
+      background-color: black; }
   .accordion .accordion-collapse .accordion-body {
     font-size: 15px; }
 
@@ -340,14 +332,17 @@ form .btn {
         color: black; }
 
 @media screen and (max-width: 1024px) {
-  .hero .carousel .carousel-caption h1 {
-    font-size: 30px; }
-  .hero .carousel .carousel-caption h2 {
-    font-size: 30px; }
-  .hero .carousel .carousel-caption h3 {
-    font-size: 30px; }
-  .hero .carousel .carousel-caption p {
-    font-size: 25px; }
+  .hero div {
+    width: 850px;
+    transition-duration: 1s; }
+    .hero div:hover {
+      width: 900px; }
+    .hero div h1 {
+      font-size: 40px; }
+    .hero div h2 {
+      font-size: 20px; }
+  .hero h3 {
+    font-size: 18px; }
   .sectionTexto h1 {
     font-size: 25px; }
   .sectionTexto2 h3 {
@@ -395,27 +390,26 @@ form .btn {
     width: 750px; } }
 
 @media screen and (max-width: 768px) {
+  .hero div {
+    width: 570px;
+    transition-duration: 1s; }
+    .hero div:hover {
+      width: 620px; }
+    .hero div h1 {
+      font-size: 28px; }
+    .hero div h2 {
+      font-size: 18px; }
+  .hero h3 {
+    font-size: 17px; }
   main .fixed a img {
     width: 60px;
     height: 60px; }
   .header nav section ul li a {
     font-size: 15px; }
+    .header nav section ul li a:hover {
+      font-size: 17px; }
   .hero {
     height: 400px; }
-    .hero .carousel {
-      height: 400px; }
-    .hero .carousel-inner .carousel-item img {
-      height: 400px; }
-    .hero .carousel-inner .carousel-item .carousel-caption {
-      height: 150px; }
-      .hero .carousel-inner .carousel-item .carousel-caption h3 {
-        font-size: 25px; }
-      .hero .carousel-inner .carousel-item .carousel-caption p {
-        font-size: 20px; }
-      .hero .carousel-inner .carousel-item .carousel-caption h4 {
-        font-size: 25px; }
-      .hero .carousel-inner .carousel-item .carousel-caption h5 {
-        font-size: 25px; }
   .sectionTexto h1 {
     font-size: 23px; }
   .sectionTexto2 h3 {
@@ -482,27 +476,28 @@ form .btn {
       font-size: 13px; } }
 
 @media screen and (max-width: 600px) {
+  .hero div {
+    width: 500px;
+    height: 120px;
+    transition-duration: 1s; }
+    .hero div:hover {
+      width: 520px;
+      height: 130px; }
+    .hero div h1 {
+      font-size: 25px; }
+    .hero div h2 {
+      font-size: 16px; }
+  .hero h3 {
+    font-size: 16px; }
   main .fixed a img {
     width: 40px;
     height: 40px; }
   .header nav section ul li a {
-    font-size: 13px; }
-  .hero {
-    height: 400px; }
-    .hero .carousel {
-      height: 400px; }
-    .hero .carousel-inner .carousel-item img {
-      height: 400px; }
-    .hero .carousel-inner .carousel-item .carousel-caption {
-      height: 150x; }
-      .hero .carousel-inner .carousel-item .carousel-caption h3 {
-        font-size: 15px; }
-      .hero .carousel-inner .carousel-item .carousel-caption p {
-        font-size: 13px; }
-      .hero .carousel-inner .carousel-item .carousel-caption h4 {
-        font-size: 15px; }
-      .hero .carousel-inner .carousel-item .carousel-caption h5 {
-        font-size: 13px; }
+    font-size: 13px;
+    transition-duration: 1s; }
+    .header nav section ul li a:hover {
+      text-decoration: underline;
+      font-size: 15px; }
   .sectionTexto h1 {
     font-size: 18px; }
   .sectionTexto2 h3 {
@@ -517,8 +512,8 @@ form .btn {
       width: 500px;
       height: 450px; }
       .sectionClientes div:hover {
-        height: 470px;
-        width: 530px; }
+        height: 465px;
+        width: 510px; }
       .sectionClientes div h2 {
         font-size: 22px; }
       .sectionClientes div p {
@@ -573,31 +568,33 @@ form .btn {
       font-size: 10px; } }
 
 @media screen and (max-width: 480px) {
+  .hero {
+    height: 520px; }
+    .hero div {
+      width: 420px;
+      height: 100px;
+      transition-duration: 1s; }
+      .hero div:hover {
+        width: 440px;
+        height: 120px; }
+      .hero div h1 {
+        font-size: 22px; }
+      .hero div h2 {
+        font-size: 14px; }
+    .hero h3 {
+      font-size: 14px; }
   .header {
     height: 100px; }
     .header nav section a img {
       height: 60px;
       width: 60px; }
     .header nav section ul li a {
-      font-size: 8px;
+      font-size: 12px;
       margin: 3px;
       padding: 10px; }
-  .hero {
-    height: 400px; }
-    .hero .carousel {
-      height: 400px; }
-    .hero .carousel-inner .carousel-item img {
-      height: 400px; }
-    .hero .carousel-inner .carousel-item .carousel-caption {
-      height: 150x; }
-      .hero .carousel-inner .carousel-item .carousel-caption h3 {
-        font-size: 9px; }
-      .hero .carousel-inner .carousel-item .carousel-caption p {
-        font-size: 7px; }
-      .hero .carousel-inner .carousel-item .carousel-caption h4 {
-        font-size: 9px; }
-      .hero .carousel-inner .carousel-item .carousel-caption h5 {
-        font-size: 9px; }
+      .header nav section ul li a:hover {
+        text-decoration: underline;
+        font-size: 14px; }
   .sectionTexto {
     height: 60px; }
     .sectionTexto h1 {
@@ -615,7 +612,7 @@ form .btn {
       height: 480px; }
       .sectionClientes div:hover {
         height: 490px;
-        width: 270px; }
+        width: 260px; }
       .sectionClientes div h2 {
         font-size: 20px; }
       .sectionClientes div p {
@@ -667,9 +664,47 @@ form .btn {
   .footer div h2 {
     font-size: 11px; }
   .footer div ul li a {
-    font-size: 9px; }
+    font-size: 11px; }
   .footer div ul li span {
-    font-size: 9px; }
+    font-size: 11px; }
   .footer div a img {
     height: 15px;
     width: 15px; } }
+
+@media screen and (max-width: 420px) {
+  .hero {
+    height: 450px; }
+    .hero div {
+      width: 320px;
+      height: 100px;
+      transition-duration: 1s; }
+      .hero div:hover {
+        width: 330px;
+        height: 110px; }
+      .hero div h1 {
+        font-size: 18px; }
+      .hero div h2 {
+        font-size: 13px; }
+    .hero h3 {
+      font-size: 13px; }
+  .header {
+    height: 140px; }
+    .header nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .header nav section a img {
+        margin: 30px;
+        height: 100px;
+        width: 100px; }
+      .header nav section ul {
+        display: flex;
+        flex-direction: column; }
+        .header nav section ul li a {
+          font-size: 12px;
+          margin: 10px;
+          padding: 2px;
+          transition-duration: 1s; }
+          .header nav section ul li a:hover {
+            text-decoration: underline;
+            font-size: 13px; } }

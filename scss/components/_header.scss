@@ -1,21 +1,18 @@
 .header{
-    background-color: black;
+    background-color: $color-principal;
     position: sticky;
     top: 0;
     height: 160px;
     width: 100%;
-    display: flex;
-    flex-direction: column;
     z-index: 1;
     nav{
         section{
+            display: flex;
+            justify-content: center;
             a{
-                display: flex;
-                justify-content: center;
                 img{
                     width: 110px;
-                    height: 110px;
-                    display: flex;  
+                    height: 110px; 
                 }
             }
             ul{
@@ -25,14 +22,13 @@
                 padding: 0px;
                 li{
                     a{
-                        color: white;
+                        color: $color-terciario;
                         text-decoration: none;
                         font-weight: 500;
                         font-size: 20px;
                         font-family: "DM Sans", sans-serif;
                         padding: 10px;
                         transition-duration: 1s;
-                        transition: 1s;
                         &:hover{
                             text-decoration: underline;
                             font-size: 23px;

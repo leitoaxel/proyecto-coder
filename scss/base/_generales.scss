@@ -16,12 +16,25 @@
     font-family: "Montserrat", sans-serif;
 }
 
-/**-----IMPORTANTS-----**/
+/**-----VARIABLES-----**/
 
+$color-principal: black;
+$color-secundario: gainsboro;
+$color-terciario: white;
 
-/**TEXTO EN BLANCO PARA SEGUNDA IMAGEN DE CAROUSEL DE BOOTSTRAP**/
+/**-----EXTENDS-----**/
 
-.TextoBlanco {
-    color: white !important;
-    font-size: 20px !important;
+%flex{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/**-----MIXINS-----**/
+
+@mixin flex ($flex, $column, $center){
+    display: $flex;
+    flex-direction: $column;
+    justify-content: $center;
 }
