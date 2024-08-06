@@ -23,15 +23,15 @@
   background-color: black;
   position: sticky;
   top: 0;
-  height: 160px;
+  height: 200px;
   width: 100%;
   z-index: 1; }
   .header nav section {
     display: flex;
     justify-content: center; }
     .header nav section a img {
-      width: 110px;
-      height: 110px; }
+      width: 150px;
+      height: 150px; }
     .header nav section ul {
       list-style: none;
       display: flex;
@@ -48,6 +48,11 @@
         .header nav section ul li a:hover {
           text-decoration: underline;
           font-size: 23px; }
+        .header nav section ul li a.active {
+          font-size: 23px;
+          color: darkred;
+          font-weight: bold;
+          text-decoration: underline; }
 
 main .fixed {
   position: fixed;
@@ -269,24 +274,25 @@ main .fixed {
       font-weight: bold;
       margin-bottom: 5px; }
 
-form .mb-3 {
-  padding: 5px;
-  margin: 2px;
-  width: 50%; }
-
-form .btn {
-  background-color: gainsboro;
-  color: black;
-  border: 2px black solid;
-  font-weight: bold;
-  padding: 5px;
-  margin: 5px;
-  transition: 1s; }
-  form .btn:hover {
-    background-color: black;
-    color: white;
+form {
+  height: 560px; }
+  form .mb-3 {
+    padding: 5px;
+    margin: 2px;
+    width: 50%; }
+  form .btn {
+    background-color: gainsboro;
+    color: black;
     border: 2px black solid;
-    padding: 8px; }
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+    transition: 1s; }
+    form .btn:hover {
+      background-color: black;
+      color: white;
+      border: 2px black solid;
+      padding: 8px; }
 
 .footer {
   background-color: gainsboro;
@@ -408,6 +414,11 @@ form .btn {
     font-size: 15px; }
     .header nav section ul li a:hover {
       font-size: 17px; }
+    .header nav section ul li a.active {
+      font-size: 16px;
+      color: darkred;
+      font-weight: bold;
+      text-decoration: underline; }
   .hero {
     height: 400px; }
   .sectionTexto h1 {
@@ -476,19 +487,21 @@ form .btn {
       font-size: 13px; } }
 
 @media screen and (max-width: 600px) {
-  .hero div {
-    width: 500px;
-    height: 120px;
-    transition-duration: 1s; }
-    .hero div:hover {
-      width: 520px;
-      height: 130px; }
-    .hero div h1 {
-      font-size: 25px; }
-    .hero div h2 {
+  .hero {
+    height: 450px; }
+    .hero div {
+      width: 500px;
+      height: 120px;
+      transition-duration: 1s; }
+      .hero div:hover {
+        width: 520px;
+        height: 130px; }
+      .hero div h1 {
+        font-size: 25px; }
+      .hero div h2 {
+        font-size: 16px; }
+    .hero h3 {
       font-size: 16px; }
-  .hero h3 {
-    font-size: 16px; }
   main .fixed a img {
     width: 40px;
     height: 40px; }
@@ -498,6 +511,11 @@ form .btn {
     .header nav section ul li a:hover {
       text-decoration: underline;
       font-size: 15px; }
+    .header nav section ul li a.active {
+      font-size: 16px;
+      color: darkred;
+      font-weight: bold;
+      text-decoration: underline; }
   .sectionTexto h1 {
     font-size: 18px; }
   .sectionTexto2 h3 {
@@ -584,10 +602,10 @@ form .btn {
     .hero h3 {
       font-size: 14px; }
   .header {
-    height: 100px; }
+    height: 140px; }
     .header nav section a img {
-      height: 60px;
-      width: 60px; }
+      height: 100px;
+      width: 100px; }
     .header nav section ul li a {
       font-size: 12px;
       margin: 3px;
@@ -595,6 +613,11 @@ form .btn {
       .header nav section ul li a:hover {
         text-decoration: underline;
         font-size: 14px; }
+      .header nav section ul li a.active {
+        font-size: 14px;
+        color: darkred;
+        font-weight: bold;
+        text-decoration: underline; }
   .sectionTexto {
     height: 60px; }
     .sectionTexto h1 {
@@ -637,10 +660,12 @@ form .btn {
       .sectionPlans div img {
         height: 90px;
         width: 90px; }
-  .sectionServicios div h1 {
-    font-size: 11px; }
-  .sectionServicios div h3 {
-    font-size: 11px; }
+  .sectionServicios {
+    height: 550px; }
+    .sectionServicios div h1 {
+      font-size: 11px; }
+    .sectionServicios div h3 {
+      font-size: 11px; }
   .accordion {
     height: 380px; }
     .accordion .accordion-item .accordion-header .accordion-button {
@@ -655,12 +680,14 @@ form .btn {
     font-size: 14px; }
   .sectionContacto .sectionContactoTitulo h2 {
     font-size: 12px; }
-  form .mb-3 .form-label {
-    font-size: 11px; }
-  form .mb-3 .form-control {
-    height: 25px; }
-  form .btn {
-    font-size: 11px; }
+  form {
+    height: 500px; }
+    form .mb-3 .form-label {
+      font-size: 11px; }
+    form .mb-3 .form-control {
+      height: 25px; }
+    form .btn {
+      font-size: 11px; }
   .footer div h2 {
     font-size: 11px; }
   .footer div ul li a {
@@ -707,4 +734,9 @@ form .btn {
           transition-duration: 1s; }
           .header nav section ul li a:hover {
             text-decoration: underline;
-            font-size: 13px; } }
+            font-size: 13px; }
+          .header nav section ul li a.active {
+            font-size: 14px;
+            color: darkred;
+            font-weight: bold;
+            text-decoration: underline; } }

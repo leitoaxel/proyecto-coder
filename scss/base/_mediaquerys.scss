@@ -139,6 +139,12 @@
                             &:hover{
                                 font-size: 17px;
                             }
+                            &.active{
+                                font-size: 16px;
+                                color: darkred;
+                                font-weight: bold;
+                                text-decoration: underline;
+                            }
                         }
                     }
                 }
@@ -290,6 +296,7 @@
 }
 @media screen and (max-width:600px) {
     .hero{
+        height: 450px;
         div{
             width: 500px;
             height: 120px;
@@ -330,6 +337,12 @@
                             &:hover{
                                 text-decoration: underline;
                                 font-size: 15px;
+                            }
+                            &.active{
+                                font-size: 16px;
+                                color: darkred;
+                                font-weight: bold;
+                                text-decoration: underline;
                             }
                         }
                     }
@@ -509,13 +522,13 @@
         }
     }
     .header {
-        height: 100px;
+        height: 140px;
         nav {
             section {
                 a{
                     img{
-                        height: 60px;
-                        width: 60px;
+                        height: 100px;
+                        width: 100px;
                     }
                 }
                 ul {
@@ -527,6 +540,12 @@
                             &:hover{
                                 text-decoration: underline;
                                 font-size: 14px;
+                            }
+                            &.active{
+                                font-size: 14px;
+                                color: darkred;
+                                font-weight: bold;
+                                text-decoration: underline;
                             }
                         }
                     }
@@ -605,6 +624,7 @@
     }
 
     .sectionServicios {
+        height: 550px;
         div {
             h1 {
                 font-size: 11px;
@@ -651,6 +671,7 @@
         }
     }
     form {
+        height: 500px;
         .mb-3 {
             .form-label {
                 font-size: 11px;
@@ -741,6 +762,12 @@
                                     text-decoration: underline;
                                     font-size: 13px;
                                 }
+                                    &.active{
+                                        font-size: 14px;
+                                        color: darkred;
+                                        font-weight: bold;
+                                        text-decoration: underline;
+                                    }
                             }
                         }
                     }
