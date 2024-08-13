@@ -98,6 +98,14 @@
     .accordion-button {
         width: 750px;
     }
+    form{
+        height: 700px;
+    .mb-3{
+        #comentarios{
+            height: 100px;
+        }
+    }
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -671,7 +679,7 @@
         }
     }
     form {
-        height: 500px;
+        height: 630px;
         .mb-3 {
             .form-label {
                 font-size: 11px;

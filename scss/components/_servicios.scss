@@ -24,6 +24,7 @@
     }
 }
 .accordion{
+    z-index: 2;
 @extend %flex;
     height: 470px;
     .accordion-item{

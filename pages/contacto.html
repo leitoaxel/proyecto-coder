@@ -51,11 +51,15 @@
                     </div>
                     <div class="mb-3">
                         <label for="fijo" class="form-label">Teléfono fijo</label>
-                        <input type="tel" class="form-control" id="fijo">
+                        <input type="tel" class="form-control" id="fijo" pattern="\d*" inputmode="numeric" title="Ingrese solo números">
                     </div>
                     <div class="mb-3">
                         <label for="celular" class="form-label">Teléfono celular</label>
-                        <input type="tel" class="form-control" id="celular">
+                        <input type="tel" class="form-control" id="celular" pattern="\d*" inputmode="numeric" title="Ingrese solo números">
+                    </div>
+                    <div class="mb-3">
+                        <label for="comentarios" class="form-label">Comentarios</label>
+                        <textarea class="form-control" id="comentarios" rows="5"></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Enviar</button>
                 </form>

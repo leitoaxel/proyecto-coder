@@ -25,7 +25,7 @@
   top: 0;
   height: 200px;
   width: 100%;
-  z-index: 1; }
+  z-index: 5; }
   .header nav section {
     display: flex;
     justify-content: center; }
@@ -69,7 +69,10 @@ main .fixed {
 
 .hero {
   background-color: gainsboro;
-  height: 690px; }
+  height: 690px;
+  background-image: url(/images/HeroBackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
   .hero div {
     display: flex;
     flex-direction: column;
@@ -114,7 +117,7 @@ main .fixed {
   flex-direction: row;
   margin: 20px;
   text-align: center;
-  gap: 120px;
+  gap: 75px;
   align-items: center;
   justify-content: center; }
   .sectionClientes div {
@@ -127,7 +130,7 @@ main .fixed {
     transition-duration: 1s; }
     .sectionClientes div:hover {
       height: 480px;
-      width: 340px; }
+      width: 360px; }
     .sectionClientes div h2 {
       padding: 5px;
       margin: 5px;
@@ -144,7 +147,7 @@ main .fixed {
 
 .sectionTexto2 {
   width: 100%;
-  font-size: 20px;
+  font-size: 30px;
   padding: 10px;
   text-align: center;
   background-color: gainsboro; }
@@ -222,6 +225,7 @@ main .fixed {
     font-size: 25px; }
 
 .accordion {
+  z-index: 2;
   height: 470px; }
   .accordion .accordion-item .accordion-header .accordion-button {
     color: black;
@@ -277,11 +281,16 @@ main .fixed {
       margin-bottom: 5px; }
 
 form {
-  height: 560px; }
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
   form .mb-3 {
     padding: 5px;
     margin: 2px;
     width: 50%; }
+    form .mb-3 .form-control {
+      resize: none; }
   form .btn {
     background-color: gainsboro;
     color: black;
@@ -395,7 +404,11 @@ form {
   .accordion-body {
     font-size: 12px; }
   .accordion-button {
-    width: 750px; } }
+    width: 750px; }
+  form {
+    height: 700px; }
+    form .mb-3 #comentarios {
+      height: 100px; } }
 
 @media screen and (max-width: 768px) {
   .hero div {
@@ -683,7 +696,7 @@ form {
   .sectionContacto .sectionContactoTitulo h2 {
     font-size: 12px; }
   form {
-    height: 500px; }
+    height: 630px; }
     form .mb-3 .form-label {
       font-size: 11px; }
     form .mb-3 .form-control {
