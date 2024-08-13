@@ -68,9 +68,8 @@ main .fixed {
       height: 75px; }
 
 .hero {
-  background-color: gainsboro;
   height: 690px;
-  background-image: url(/images/HeroBackground.jpg);
+  background-image: url(../images/Background.jpg);
   background-repeat: no-repeat;
   background-size: cover; }
   .hero div {
@@ -602,8 +601,10 @@ form {
 
 @media screen and (max-width: 480px) {
   .hero {
-    height: 520px; }
+    height: 320px;
+    background-size: contain; }
     .hero div {
+      margin-top: 100px;
       width: 420px;
       height: 100px;
       transition-duration: 1s; }
@@ -703,26 +704,31 @@ form {
       height: 25px; }
     form .btn {
       font-size: 11px; }
-  .footer div h2 {
-    font-size: 11px; }
-  .footer div ul li a {
-    font-size: 11px; }
-  .footer div ul li span {
-    font-size: 11px; }
-  .footer div a img {
-    height: 15px;
-    width: 15px; } }
+  .footer {
+    height: 350px; }
+    .footer div h2 {
+      font-size: 11px; }
+    .footer div ul li a {
+      font-size: 11px; }
+    .footer div ul li span {
+      font-size: 11px; }
+    .footer div a img {
+      height: 15px;
+      width: 15px; } }
 
 @media screen and (max-width: 420px) {
   .hero {
-    height: 450px; }
+    background-size: cover;
+    height: 280px; }
     .hero div {
-      width: 320px;
-      height: 100px;
+      margin-top: 80px;
+      padding: 10px;
+      width: 330px;
+      height: 180px;
       transition-duration: 1s; }
       .hero div:hover {
-        width: 330px;
-        height: 110px; }
+        width: 340px;
+        height: 200px; }
       .hero div h1 {
         font-size: 18px; }
       .hero div h2 {

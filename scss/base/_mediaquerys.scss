@@ -509,8 +509,10 @@
 }
 @media screen and (max-width:480px) {
     .hero{
-    height: 520px;
+    height: 320px;
+    background-size: contain;
         div{
+            margin-top: 100px;
             width: 420px;
             height: 100px;
             transition-duration: 1s;
@@ -696,6 +698,7 @@
     }
 
     .footer {
+        height: 350px;
         div {
             h2 {
                 font-size: 11px;
@@ -723,14 +726,17 @@
 }
 @media screen and (max-width:420px){
     .hero{
-        height: 450px;
+        background-size: cover;
+        height: 280px;
             div{
-                width: 320px;
-                height: 100px;
+                margin-top: 80px;
+                padding: 10px;
+                width: 330px;
+                height: 180px;
                 transition-duration: 1s;
                 &:hover{
-                    width: 330px;
-                    height: 110px;
+                    width: 340px;
+                    height: 200px;
                 }
                 h1{
                     font-size: 18px;

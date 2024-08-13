@@ -1,8 +1,7 @@
 .hero{
-    background-color: $color-secundario;
     height: 690px;
     @extend %flex;
-    background-image: url(/images/HeroBackground.jpg);
+    background-image: url(../images/Background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     div{
